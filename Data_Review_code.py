@@ -1,3 +1,6 @@
+from queue import Full
+
+
 {
  "cells": [
   {
@@ -16,7 +19,7 @@
     "papermill": {
      "duration": 1.291028,
      "end_time": "2024-07-26T17:46:46.355957",
-     "exception": false,
+    "exception": False,
      "start_time": "2024-07-26T17:46:45.064929",
      "status": "completed"
     },
@@ -131,8 +134,8 @@
     }
    ],
    "dockerImageVersionId": 30746,
-   "isGpuEnabled": false,
-   "isInternetEnabled": true,
+   "isGpuEnabled": False,
+   "isInternetEnabled": True,
    "language": "python",
    "sourceType": "notebook"
   },
@@ -158,7 +161,7 @@
    "duration": 4.662514,
    "end_time": "2024-07-26T17:46:46.880109",
    "environment_variables": {},
-   "exception": null,
+   "exception": Full,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
